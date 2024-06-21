@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio_openclassroom/static/css/main.5f62d4ee.css",
+    "main.js": "/portfolio_openclassroom/static/js/main.390bcedc.js",
+    "static/media/banner-nina.webp": "/portfolio_openclassroom/static/media/banner-nina.37c828a71e0968cbd00e.webp",
+    "static/media/event.webp": "/portfolio_openclassroom/static/media/event.aea0a8424962d67b41de.webp",
+    "static/media/kasa.webp": "/portfolio_openclassroom/static/media/kasa.dd1a4a43cc7d6646c882.webp",
+    "static/media/banner_sophieBluel.webp": "/portfolio_openclassroom/static/media/banner_sophieBluel.9eae75b5b734a400b573.webp",
+    "static/media/banner_ohmyfood.webp": "/portfolio_openclassroom/static/media/banner_ohmyfood.641667bf895965f6acdd.webp",
+    "static/media/banner-qwenta.webp": "/portfolio_openclassroom/static/media/banner-qwenta.19ed60fccedf78093a89.webp",
+    "static/media/oh-my-food.webp": "/portfolio_openclassroom/static/media/oh-my-food.a8414b8f5add6dba2f18.webp",
+    "static/media/bluel.webp": "/portfolio_openclassroom/static/media/bluel.688e769a57680b1f36bd.webp",
+    "static/media/Nina-Carducci.webp": "/portfolio_openclassroom/static/media/Nina-Carducci.ee0b7eaa65f26371bb88.webp",
+    "static/media/banner_booki.webp": "/portfolio_openclassroom/static/media/banner_booki.3be68f2abafb19cae25d.webp",
+    "static/media/banner_kasa.webp": "/portfolio_openclassroom/static/media/banner_kasa.b575e1a6cacdc5a628f4.webp",
+    "static/media/home.webp": "/portfolio_openclassroom/static/media/home.34920e71f2412e28785b.webp",
+    "static/media/booki.webp": "/portfolio_openclassroom/static/media/booki.6bc15915a81e42fa26d7.webp",
+    "static/media/banner-77events.webp": "/portfolio_openclassroom/static/media/banner-77events.6354c69b87561ba6a9e6.webp",
+    "static/media/menumaker.webp": "/portfolio_openclassroom/static/media/menumaker.8b4ba5573fbe687c5fc2.webp",
+    "static/media/banner_argent.webp": "/portfolio_openclassroom/static/media/banner_argent.c2dd5eedcdcc413c4992.webp",
+    "static/media/argentbank.webp": "/portfolio_openclassroom/static/media/argentbank.99a096507adaae0273d3.webp",
+    "index.html": "/portfolio_openclassroom/index.html",
+    "main.5f62d4ee.css.map": "/portfolio_openclassroom/static/css/main.5f62d4ee.css.map",
+    "main.390bcedc.js.map": "/portfolio_openclassroom/static/js/main.390bcedc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f62d4ee.css",
+    "static/js/main.390bcedc.js"
+  ]
+}
