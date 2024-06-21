@@ -1,0 +1,53 @@
+.project-section {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 30px;
+  background-image: url("../../Assets/home.webp");
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project-heading {
+  color: white;
+}
+.project-card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.project-card-view .card-img-top {
+  height: 120px;
+  object-fit: cover;
+}
+
+.project-card-view {
+  box-shadow: 0 4px 5px 3px black;
+  color: black;
+  background-color: white;
+  opacity: 0.9;
+  transition: all 0.5s ease;
+  min-height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card-view:hover {
+  transform: scale(1.02);
+  overflow: hidden;
+  box-shadow: 0 4px 4px 5px black;
+}
+.modal-body {
+  text-align: center;
+}
+
+.modal-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}

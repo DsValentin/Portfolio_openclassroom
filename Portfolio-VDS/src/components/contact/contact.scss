@@ -1,0 +1,106 @@
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+.h1-contact {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: rgb(3, 136, 136);
+  margin-top: 30px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+
+  .form-content {
+    .label-contact {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .input-contact,
+    .select-contact,
+    .message-contact {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+
+      &:focus {
+        outline: none;
+        border-color: #007bff;
+      }
+    }
+
+    .select-contact {
+      appearance: none;
+    }
+
+    .message-contact {
+      resize: vertical;
+    }
+
+    #c-yup {
+      color: red;
+      margin-top: 5px;
+    }
+
+    .button-contact {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: rgb(3, 136, 136);
+      color: black;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgb(3, 104, 104);
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    max-width: 100%;
+    padding: 10px;
+
+    .form-content {
+      .input-contact,
+      .select-contact,
+      .message-contact {
+        width: 100%;
+      }
+    }
+  }
+
+  @media (min-width: $breakpoint-md) {
+    .contact-form {
+      max-width: 80%;
+    }
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    .contact-form {
+      max-width: 70%;
+    }
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    .contact-form {
+      max-width: 60%;
+    }
+  }
+}
